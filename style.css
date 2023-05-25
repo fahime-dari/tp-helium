@@ -1,0 +1,126 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+:root{
+    --colorBgc:rgb(59, 56, 56);
+    --colorText:rgba(254,254,254,255);
+    --colorLinks:rgba(71,77,255,255);
+    --colorBtn:rgb(70, 70, 198);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #1d1d1d;
+}
+
+/* Style de la navbar */
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: space-around;
+
+}
+
+header nav ul li{
+    list-style-type: none;
+    padding: 15px 10px;
+    
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: var(--colorText);
+    text-transform: capitalize;
+}
+
+
+/* Style du main  */
+
+
+
+
+/* Style du header gauche */
+
+.header-left{
+    
+    color: var(--colorText);
+    display: flex;
+    
+}
+
+
+.header-left-container h3{
+    color: var(--colorLinks);
+    
+}
+
+.header-left-container p{
+    color: var(--colorText);
+    
+}
+
+.header-right img{
+    height: 674px;
+    
+}
+
+
+/* Bottom */
+
+.infos{
+    background-color: rgba(13,13,13,255);
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 10px;
+}
+
+.btn-container{
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction:column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: solid yellow 50px;
+}
+
+
+.infos-left h3{
+    color: var(--colorText);
+}
+
+.infos-right h3{
+    color: var(--colorText);
+    margin-bottom: 20px;
+}
+
+.img-container{
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
