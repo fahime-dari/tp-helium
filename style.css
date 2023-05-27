@@ -104,9 +104,16 @@ header nav ul li a{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border-radius: solid yellow 50px;
+    border: 2px solid red;
+    border-radius: 2px;
+    
 }
 
+button{
+    background: var(--colorBtn);
+    
+    color: var(--colorText);
+}
 
 .infos-left h3{
     color: var(--colorText);
@@ -123,4 +130,5 @@ header nav ul li a{
     justify-content: space-around;
     margin-bottom: 50px;
 }
+
 
