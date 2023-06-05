@@ -27,6 +27,7 @@ nav ul {
   display: flex;
   width: 50%;
   justify-content: space-between;
+  text-decoration: none;
 }
 .header {
   display: flex;
